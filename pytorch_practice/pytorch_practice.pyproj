@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f6503829-8d21-496b-b798-a7960d37f60f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MultiLinearRegression.py</StartupFile>
+    <StartupFile>SoftmaxRegression.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LinearRegression.py" />
+    <Compile Include="LogisticRegression.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SoftmaxRegression.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MultiLinearRegression.py">
       <SubType>Code</SubType>
     </Compile>
