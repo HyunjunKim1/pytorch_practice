@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f6503829-8d21-496b-b798-a7960d37f60f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SingleLayerPerceptron.py</StartupFile>
+    <StartupFile>MultiLayerPerceptron.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="LinearRegression.py" />
     <Compile Include="LogisticRegression.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiLayerPerceptron.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SingleLayerPerceptron.py">
